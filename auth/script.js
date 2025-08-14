@@ -79,7 +79,7 @@ function login() {
 
   if (username === storedUsername && password === storedPassword) {
     alert("Login successful!");
-    window.location.href = "/index.html"; // redirect to index/home page
+    window.location.href = "../index.html"; // redirect to index/home page
   } else {
     alert("Invalid username or password.");
   }
@@ -102,7 +102,7 @@ function login() {
     localStorage.setItem("isLoggedIn", "true");
 
     // Go to home page
-    window.location.href = "/index.html"; // redirect to index/home page
+    window.location.href = "../index.html"; // redirect to index/home page
   } else {
     alert("Invalid username or password.");
   }
